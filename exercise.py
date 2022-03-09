@@ -52,3 +52,28 @@ s=int(input('total speed:'))
 d=int(input('total distance:'))
 print(f'{s/d} time')
 
+#10 boxes
+x= int(input("enter qnt"))
+print (x/40)
+
+#11 Multiplication table (from 1 to 10) in Python w
+num = 10
+for i in range(1, 11):
+   print(num, i, num*i)
+
+
+#12 Multiplication table (from 1 to 10) in Python with spaces
+num = 10
+for i in range(1, 11):
+   print(num, 'x', i, '=', num*i)
+
+#13 AVG of 5 numbers
+num1 = int (input("please enter first number "))
+num2 = int (input("please enter second number "))
+num3 = int (input("pl)ease enter third number "))
+num4 = int (input("please enter fourth number "))
+num5 = int (input("please enter fourth number "))
+avg = (num4+num2+num3+num1)/5
+print (avg)
+
+
