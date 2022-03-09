@@ -47,3 +47,8 @@ num4 = int (input("please enter fourth number "))
 avg = (num4+num2+num3+num1)/4
 print (avg)
 
+#9 km\h
+s=int(input('total speed:'))
+d=int(input('total distance:'))
+print(f'{s/d} time')
+
