@@ -88,6 +88,14 @@ for i in range(1,14):
   sum = sum + i
 print("Sum is ", sum)
 
+#14 number with leading zero
+num = input("Enter your phone number")
+print(f"The number is 0{num}")
+
+#15 range from 5 - 2500 in round number
+for i in range(5, 2500):
+    print(round(i / 6))
+
 
 
 
