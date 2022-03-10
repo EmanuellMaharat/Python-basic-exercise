@@ -92,6 +92,13 @@ while guess != num:
     else:
         print("nope, sorry. try again!")
 
+#15 sum of 13 numbers
+sum = 0
+for i in range(1,14):
+  sum = sum + i
+print("Sum is ", sum)
+
+
 
 
 
