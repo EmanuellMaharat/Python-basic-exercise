@@ -40,11 +40,11 @@ num4 = int (input("please enter fourth number "))
 avg = (num4+num2+num3+num1)/4
 print (avg)
 
-#8 km\h
+#8 km\h how much time it will take
 s=int(input('total speed:'))
 d=int(input('total distance:'))
-print(f'{s/d} time')
-
+print(f'{s/d} hour')
+print (f"{s/d*60} in minutes")
 
 #9 Multiplication table (from 1 to 10) in Python w
 num = 10
