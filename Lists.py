@@ -39,3 +39,49 @@ def areSame(a, b):
 # Driver code
 areSame(20, 20)
 
+#5 grage for 2 students
+Emanuel = []
+Dana = []
+for i in range (5):
+    Emanuel.append(int(input("please enter your grade")))
+    Dana.append(int(input("please enter your grade")))
+for i in range (len(Emanuel)):
+    for j in range (len(Dana)):
+        if Emanuel(j)==Dana(i):
+            print (Emanuel(i))
+
+#6 Check if string is Even or Odd
+name = input("Enter your name: ")
+length = len(name)%2
+if length == 0:
+	print (name, "even")
+else:
+	print (name, "odd")
+
+#7
+for i in range (100):
+	Client = input("What is your name ?")
+	order = int(input("How much do you need?"))
+	minimum = 4
+	one_box = 35
+	if order < int(minimum):
+		print(order * one_box + 10)
+	else:
+		print(f'Thank you', Client, ' for your order', (one_box * 2), 'ILS')
+		if order > 20 :
+			print (f'thank you',(Client) )
+
+#8
+family = []
+kids = []
+for i in range(2):
+	q1 = input('Name:')
+	q2 = int(input('Kids?:'))
+	family.append(q1)
+	kids.append(q2)
+for i in kids:
+	if i > 3:
+		print('Discount')
+print(family, kids)
+
+
