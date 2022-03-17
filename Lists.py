@@ -84,4 +84,23 @@ for i in kids:
 		print('Discount')
 print(family, kids)
 
+#9
+blood_type= []
+name =[]
+Bloodtype = "o"
+counter_O = 0
+for i in range (3):
+	q1 = input('Name:')
+	q2 = input('blood_type:')
+	name.append(q1)
+	blood_type.append(q2)
+for i in blood_type:
+	if i == Bloodtype:
+		counter_O +=1
+print(name)
+print(blood_type)
+print('Amount of people with O :', counter_O)
+
+
+
 
