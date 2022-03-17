@@ -14,7 +14,7 @@ for i in range(0, n):
 
 print(lst)
 
-#3
+#3 Check if 2 numbers are similar
 for i in range (11)
     n = int(input("please enter a num"))
     ls.append(n)
@@ -61,7 +61,7 @@ if length == 0:
 else:
 	print (name, "odd")
 
-#7
+#7 Calculate Orders cost plus shipping
 for i in range (100):
 	Client = input("What is your name ?")
 	order = int(input("How much do you need?"))
@@ -74,7 +74,7 @@ for i in range (100):
 		if order > 20 :
 			print (f'thank you',(Client) )
 
-#8
+#8 Family trip count
 family = []
 kids = []
 for i in range(2):
@@ -87,7 +87,7 @@ for i in kids:
 		print('Discount')
 print(family, kids)
 
-#9
+#9 Check sum of people with the same Blood type
 blood_type= []
 name =[]
 Bloodtype = "o"
