@@ -44,8 +44,8 @@ areSame(20, 20)
 Emanuel = []
 Daniel = []
 for i in range (1):
-    Emanuel.append(int(input("please enter your grade")))
-    Daniel.append(int(input("please enter your grade")))
+    Emanuel.append(int(input("please enter Emanuel grade")))
+    Daniel.append(int(input("please enter Daniel grade")))
 for i in range (len(Emanuel)):
     for j in range(len(Daniel)) :
         if Emanuel[i]==Daniel[j-1]:
