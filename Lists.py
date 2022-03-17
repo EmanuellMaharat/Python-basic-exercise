@@ -29,6 +29,7 @@ for i in range (11)
              bigger_10+=1
         if i<10:
              lower_10 +=1
+			print (max(i))
 
 #4 Python code to check if 2 numbers are same
 def areSame(a, b):
@@ -39,16 +40,18 @@ def areSame(a, b):
 # Driver code
 areSame(20, 20)
 
-#5 grage for 2 students
+#6 grades for 2 students
 Emanuel = []
-Dana = []
-for i in range (5):
+Daniel = []
+for i in range (1):
     Emanuel.append(int(input("please enter your grade")))
-    Dana.append(int(input("please enter your grade")))
+    Daniel.append(int(input("please enter your grade")))
 for i in range (len(Emanuel)):
-    for j in range (len(Dana)):
-        if Emanuel(j)==Dana(i):
-            print (Emanuel(i))
+    for j in range(len(Daniel)) :
+        if Emanuel[i]==Daniel[j-1]:
+            print(f"Emanuel: {Emanuel} and Daniel: {Daniel} Have the same score")
+        else:
+            print ("The score is not the same")
 
 #6 Check if string is Even or Odd
 name = input("Enter your name: ")
