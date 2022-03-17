@@ -30,3 +30,20 @@ def addition(num1, num2):
     return num1 + num2
 
 print(addition(2, 3))
+
+#addition
+def divided(num1, num2):
+    d = num1 + num2
+    return d
+
+s = (divided (2, 3))
+print (s)
+
+
+#divided
+def divided(num1, num2):
+    d = num1 / num2
+    return d
+
+s = (divided (2, 3))
+print (s)
