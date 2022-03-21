@@ -4,6 +4,7 @@
     <list default="true" id="e40e104e-c555-4ddf-94ff-2948e6685ffb" name="Changes" comment="Add files via upload">
       <change afterPath="$PROJECT_DIR$/dsgfdsg.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dssdv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object oreinted.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/60 Exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 Exercises.py" afterDir="false" />
     </list>
@@ -126,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="f" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="object oreinted" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/CLASS1" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/CLASS1/f.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object oreinted.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,10 +151,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.dsgfdsg" />
+        <item itemvalue="Python.object oreinted" />
         <item itemvalue="Python.dssdv" />
         <item itemvalue="Python.60 Exercises" />
         <item itemvalue="Python.Function Exercise" />
-        <item itemvalue="Python.f" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647685975369</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add files via upload">
+      <created>1647790205812</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1647790205812</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

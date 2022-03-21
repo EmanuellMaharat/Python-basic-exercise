@@ -146,6 +146,85 @@ color_list_2 = set(["Red", "Green"])
 print(f"Diffrence from list 1 to list 2{color_list_1.difference(color_list_2)}")
 print(f"Diffrence from list 2 to list 1{color_list_2.difference(color_list_1)}")
 
+#21  program to sum of three given integers. However, if two values are equal sum will be zero.
+num1 = int(input("num1 ?"))
+num2 = int(input("num2 ?"))
+num3 = int(input("num3 ?"))
+total = (int(num1))+(int(num2))+(int(num3))
+if num1 == num2 == num3:
+    print (0)
+else:
+    print((float(total)))
+
+#22  program to sum of two given integers.
+# However, if the sum is between 15 to 20 it will return 20.
+def sum(x, y):
+    sum = x + y
+    if sum in range(15, 20):
+        return 20
+    else:
+        return sum
+
+print(sum(10, 6))
+print(sum(10, 2))
+print(sum(10, 12))
+
+#23 program that will return true if the two given integer values are equal or their sum or difference is 5.
+def five (x,y):
+    if x or y == 5 or x + y == 5 or x - y == 5:
+        return True
+    else:
+        return False
+print(five(3,2))
+print(five(7,3))
+print(five(10,4))
+
+#24 program to add two objects if both objects are an integer type.
+def add (x,y):
+    if (x,int) or (y,int):
+        return ("$$")
+    return  (x+y)
+print(add(3,2))
+print(add(7,8))
+print(add(10,4))
+
+#25 display your details like name, age, address in three different lines.
+name = input("name? :\n")
+Lastname = input("Lastname? :\n")
+age = input("age? :\n")
+print(name)
+print(Lastname)
+print(age)
+
+#26 program to solve (x + y) * (x + y).
+def Sum (x,y):
+    return (x+y) * (x+y)
+print(Sum(4,3))
+
+#27 Check if file is exists
+import os.path
+print(os.path.isfile('manu.txt'))
+print(os.path.isfile('manumanu.py'))
+
+#28 os and platform name system and version
+import platform
+import os
+print("Name of the operating system:",os.name)
+print("\nName of the OS system:",platform.system())
+print("\nVersion of the operating system:",platform.release())
+
+#29  program to convert height (in feet and inches) to centimeters
+height = int(input("height? : "))
+feet = int(input("feet ? :"))
+print(int(height*2.54))
+print(int(feet*30))
+
+#30 program to calculate body mass index
+height = float(input("Input your height in Feet: "))
+weight = float(input("Input your weight in Kilogram: "))
+print("Your body mass index is: ", round(weight / (height * height), 2))
+
+
 
 
 
