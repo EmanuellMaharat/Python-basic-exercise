@@ -224,6 +224,140 @@ height = float(input("Input your height in Feet: "))
 weight = float(input("Input your weight in Kilogram: "))
 print("Your body mass index is: ", round(weight / (height * height), 2))
 
+#31 write a Python program to print "30+20=50".
+x = 30
+y = 20
+print(x,"+" ,y,"=", x+y)
+print()
+
+#32 Given a variable name, if the value is 1, display the string "First day of a Month!"
+n=1
+if n == 1:
+   print("\nFirst day of a Month!")
+print()
+
+#33 Program to check if a number is positive, negative or zero.
+num = float(input("Input a number: "))
+if num > 0:
+    print("It is positive number")
+elif num == 0:
+    print("It is Zero")
+else:
+    print("It is a negative number")
+
+#34 Program to add leading zeroes to a string.
+x = input("Hi")
+print(0+x)
+
+#35 save names
+def save_user(**user):
+    print (user)
+
+save_user(id=1, name="john", age=22)
+
+#36 list of numbers
+def list(*numbers):
+    print(numbers)
+
+list(2,3,4,5)
+
+
+#37 Multiply numbers
+def Multiply(num1, num2):
+    return num1 * num2
+
+print(Multiply(2, 3))
+
+
+#38 print first and last name
+def greet(first_name , last_name)
+    print (f"Hi {first_name}{last_name}")
+    print ("Welcome")
+
+greet(Emanuel,maharat)
+
+#39 addition
+def addition(num1, num2):
+    return num1 + num2
+
+print(addition(2, 3))
+
+#40 addition
+def divided(num1, num2):
+    d = num1 + num2
+    return d
+
+s = (divided (2, 3))
+print (s)
+
+
+#41 divided
+def divided(num1, num2):
+    d = num1 / num2
+    return d
+
+s = (divided (2, 3))
+print (s)
+
+#42 Calculatur by choise
+def divided(divided1, divided2):
+    d = divided1/divided2
+    return d
+
+def plus(plus1,plus2):
+    d = plus1+plus2
+    return d
+
+def multiply(multiply1 , multiply2):
+    d = multiply1 * multiply2
+    return d
+
+def minus(minus1 , minus2):
+    d = minus1-minus2
+    return d
+
+q1 = int(input("please choose a number"))
+q2 = int(input("please choose another number"))
+q3 = input("do you want * + - /")
+if q3 == "/":
+    print(f'The answer is {divided(q1,q2)} \U0001F600 ')
+if q3 == "+":
+    print(f'The answer is {plus(q1,q2)} \U0001F910')
+if q3 == "*":
+    print (f"The answer is {multiply(q1,q2)} \U0001F602")
+if q3 == "-":
+    print (f"The answer is {minus(q1,q2)} \U0001F605")
+
+
+#43 print 1 if the number is even and 0 if it's odd
+
+def even(number):
+    q1 = int(input("please choose a number"))
+    if q1 % 2 == 0:
+        print(number)
+    else:
+        print(0)
+even(1)
+
+#44 input n num and print the avarege
+def Average(lst):
+	return sum(lst) / len(lst)
+
+lst = [15, 9, 55, 41, 35, 20, 62, 49]
+average = Average(lst)
+
+print("Average of the list =", round(average, 2))
+
+#45 Return the sum len of string
+
+def lan (lst) :
+    l=("Emanuel")
+    return l
+x= (len(lan(lst)))
+print ("The len of the list=", x)
+
+
+
 
 
 
