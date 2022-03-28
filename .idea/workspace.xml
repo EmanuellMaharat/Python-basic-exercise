@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e40e104e-c555-4ddf-94ff-2948e6685ffb" name="Changes" comment="Add files via upload">
+      <change afterPath="$PROJECT_DIR$/Cars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Swift.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dsgfdsg.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dssdv.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/fdbgfd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/60 Exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/60 Exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +43,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/CLASS1/uneven.py" />
   </component>
-  <component name="RunManager" selected="Python.fdbgfd">
-    <configuration name="60 Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Swift">
+    <configuration name="Swift" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/60 Exercises.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Swift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Swift" />
+        <item itemvalue="Python.dssdv" />
         <item itemvalue="Python.fdbgfd" />
         <item itemvalue="Python.dsgfdsg" />
         <item itemvalue="Python.object oreinted" />
-        <item itemvalue="Python.dssdv" />
-        <item itemvalue="Python.60 Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647853879783</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add files via upload">
+      <created>1648114113239</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648114113239</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
