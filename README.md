@@ -11,7 +11,7 @@
 * While loop. 
 * For loop.
 * Lists. 
-* function. 
+* Function. 
 
 
 
