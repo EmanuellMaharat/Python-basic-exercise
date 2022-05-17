@@ -8,7 +8,8 @@
 # Included the following subjects 
 * Python basic - calculatur , print your name , import date and time and more than 60 basic exercise.
 * If statemens.
-* while loop. 
+* While loop. 
+* For loop.
 * Lists. 
 * function. 
 
